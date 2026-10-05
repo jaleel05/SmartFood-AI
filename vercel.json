@@ -1,45 +1,31 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "services": {
-    "app": {
-      "root": ".",
-      "framework": "vite"
-    },
-    "python_backend": {
-      "root": "python_backend",
-      "framework": "flask"
-    }
-  },
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": {
-        "service": "python_backend"
-      }
+      "destination": "/api/index.py"
     },
     {
       "source": "/scan",
-      "destination": {
-        "service": "python_backend"
-      }
+      "destination": "/api/index.py"
     },
     {
       "source": "/chat",
-      "destination": {
-        "service": "python_backend"
-      }
+      "destination": "/api/index.py"
     },
     {
       "source": "/foods",
-      "destination": {
-        "service": "python_backend"
-      }
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/health",
+      "destination": "/api/index.py"
     },
     {
       "source": "/(.*)",
-      "destination": {
-        "service": "app"
-      }
+      "destination": "/index.html"
     }
   ]
 }

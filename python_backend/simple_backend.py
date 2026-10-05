@@ -408,8 +408,8 @@ keyword_mapping = {
     "type": ["type", "category", "kind", "family", "group"]
 }
 
-@app.route('/')
-def home():
+@app.route('/api/status')
+def status():
     return "Food Nutrition Assistant Server is running!"
 
 @app.route('/health', methods=['GET'])
