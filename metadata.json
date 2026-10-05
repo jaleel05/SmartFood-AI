@@ -1,0 +1,7 @@
+{
+  "name": "Copy of SmartFood AI",
+  "description": "Intelligent food application using AI for classification, freshness detection, and nutritional information.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Apple",
+    "original_class": "fresh_apple",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Banana",
+    "original_class": "fresh_banana",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Grapes",
+    "original_class": "fresh_grapes",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Kiwi",
+    "original_class": "fresh_kiwi",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Mango",
+    "original_class": "fresh_mango",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Orange",
+    "original_class": "fresh_orange",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Peaches",
+    "original_class": "fresh_peaches",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Pear",
+    "original_class": "fresh_pear",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Pineapple",
+    "original_class": "fresh_pineapple",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Pomegranate",
+    "original_class": "fresh_pomegranate",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Pomegranates",
+    "original_class": "fresh_pomegranates",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Strawberries",
+    "original_class": "fresh_strawberries",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Tomato",
+    "original_class": "fresh_tomato",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Watermelon",
+    "original_class": "fresh_watermelon",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Apple",
+    "original_class": "stale_apple",
+    "condition": "Stale",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Banana",
+    "original_class": "stale_banana",
+    "condition": "Stale",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Mango",
+    "original_class": "stale_mango",
+    "condition": "Stale",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Orange",
+    "original_class": "stale_orange",
+    "condition": "Stale",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Peaches",
+    "original_class": "stale_peaches",
+    "condition": "Stale",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Pomegranates",
+    "original_class": "stale_pomegranates",
+    "condition": "Stale",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Strawberries",
+    "original_class": "stale_strawberries",
+    "condition": "Stale",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Tomato",
+    "original_class": "stale_tomato",
+    "condition": "Stale",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Bean",
+    "original_class": "fresh_bean",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Beetroot",
+    "original_class": "fresh_beetroot",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Bell_pepper",
+    "original_class": "fresh_bell_pepper",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Bitter_gourd",
+    "original_class": "fresh_bitter_gourd",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Broccoli",
+    "original_class": "fresh_broccoli",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Cabbage",
+    "original_class": "fresh_cabbage",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Capsicum",
+    "original_class": "fresh_capsicum",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Carrot",
+    "original_class": "fresh_carrot",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Cauliflower",
+    "original_class": "fresh_cauliflower",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Chillipepper",
+    "original_class": "fresh_chillipepper",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Corn",
+    "original_class": "fresh_corn",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Cucumber",
+    "original_class": "fresh_cucumber",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Eggplant",
+    "original_class": "fresh_eggplant",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Garlic",
+    "original_class": "fresh_garlic",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Ginger",
+    "original_class": "fresh_ginger",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Jalepeno",
+    "original_class": "fresh_jalepeno",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Lemon",
+    "original_class": "fresh_lemon",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Lettuce",
+    "original_class": "fresh_lettuce",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Onion",
+    "original_class": "fresh_onion",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Papaya",
+    "original_class": "fresh_papaya",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Paprika",
+    "original_class": "fresh_paprika",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Peas",
+    "original_class": "fresh_peas",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Potato",
+    "original_class": "fresh_potato",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Raddish",
+    "original_class": "fresh_raddish",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Radish",
+    "original_class": "fresh_radish",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Soy_beans",
+    "original_class": "fresh_soy_beans",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Spinach",
+    "original_class": "fresh_spinach",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Sweetcorn",
+    "original_class": "fresh_sweetcorn",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Sweetpotato",
+    "original_class": "fresh_sweetpotato",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Turnip",
+    "original_class": "fresh_turnip",
+    "condition": "Fresh",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Bitter_gourd",
+    "original_class": "stale_bitter_gourd",
+    "condition": "Stale",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Capsicum",
+    "original_class": "stale_capsicum",
+    "condition": "Stale",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  },
+  {
+    "name": "Lemon",
+    "original_class": "stale_lemon",
+    "condition": "Stale",
+    "calories": "100",
+    "shelfLife": "5-7 days",
+    "category": "Food"
+  }
+]

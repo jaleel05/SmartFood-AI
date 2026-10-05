@@ -1,0 +1,75 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Is anyone there?", "Start", "Hola", "Greetings"],
+      "responses": ["Hello! I am your SmartFood AI trained on 50+ fruits and vegetables. Ask me anything!", "Hi there! I can help you with freshness, benefits, and calories."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Exit", "Close chat"],
+      "responses": ["See you later! Eat healthy!", "Goodbye! Have a fresh day!", "Stay healthy!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Cool thanks"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "identify",
+      "patterns": ["What is this?", "Identify this fruit", "Identify this vegetable", "What food is this?"],
+      "responses": ["I can identify 50 different fruits and vegetables! Please use the 'Scan' feature to take a photo.", "Go to the Scanner to identify specific items."]
+    },
+    { "tag": "apple", "patterns": ["Apple", "Benefits of apple", "About apple", "calories in apple"], "responses": ["Apples are rich in fiber and Vitamin C. Calories: ~52 kcal/100g."] },
+    { "tag": "banana", "patterns": ["Banana", "Benefits of banana", "About banana", "calories in banana"], "responses": ["Bananas are high in potassium. Calories: ~89 kcal/100g."] },
+    { "tag": "orange", "patterns": ["Orange", "Benefits of orange", "About orange"], "responses": ["Oranges are an excellent source of Vitamin C. Calories: ~47 kcal/100g."] },
+    { "tag": "mango", "patterns": ["Mango", "Benefits of mango", "About mango"], "responses": ["Mangoes are the king of fruits, rich in Vitamin A. Calories: ~60 kcal/100g."] },
+    { "tag": "grapes", "patterns": ["Grapes", "Benefits of grapes", "About grapes"], "responses": ["Grapes contain resveratrol. Calories: ~67 kcal/100g."] },
+    { "tag": "pineapple", "patterns": ["Pineapple", "Benefits of pineapple", "About pineapple"], "responses": ["Pineapples contain bromelain. Calories: ~50 kcal/100g."] },
+    { "tag": "papaya", "patterns": ["Papaya", "Benefits of papaya", "About papaya"], "responses": ["Papayas are great for digestion. Calories: ~43 kcal/100g."] },
+    { "tag": "watermelon", "patterns": ["Watermelon", "Benefits of watermelon", "About watermelon"], "responses": ["Watermelons are hydrating. Calories: ~30 kcal/100g."] },
+    { "tag": "melon", "patterns": ["Melon", "Benefits of melon", "About melon"], "responses": ["Melons are refreshing. Calories: ~34 kcal/100g."] },
+    { "tag": "strawberry", "patterns": ["Strawberry", "Benefits of strawberry", "About strawberry"], "responses": ["Strawberries are high in antioxidants. Calories: ~32 kcal/100g."] },
+    { "tag": "blueberry", "patterns": ["Blueberry", "Benefits of blueberry", "About blueberry"], "responses": ["Blueberries boost brain health. Calories: ~57 kcal/100g."] },
+    { "tag": "peach", "patterns": ["Peach", "Benefits of peach", "About peach"], "responses": ["Peaches help digestion. Calories: ~39 kcal/100g."] },
+    { "tag": "pear", "patterns": ["Pear", "Benefits of pear", "About pear"], "responses": ["Pears are gut-friendly. Calories: ~57 kcal/100g."] },
+    { "tag": "guava", "patterns": ["Guava", "Benefits of guava", "About guava"], "responses": ["Guavas are immunity boosters. Calories: ~68 kcal/100g."] },
+    { "tag": "kiwi", "patterns": ["Kiwi", "Benefits of kiwi", "About kiwi"], "responses": ["Kiwis support immune health. Calories: ~61 kcal/100g."] },
+    { "tag": "pomegranate", "patterns": ["Pomegranate", "Benefits of pomegranate", "About pomegranate"], "responses": ["Pomegranates reduce inflammation. Calories: ~83 kcal/100g."] },
+    { "tag": "plum", "patterns": ["Plum", "Benefits of plum", "About plum"], "responses": ["Plums are great for bone health. Calories: ~46 kcal/100g."] },
+    { "tag": "apricot", "patterns": ["Apricot", "Benefits of apricot", "About apricot"], "responses": ["Apricots promote eye health. Calories: ~48 kcal/100g."] },
+    { "tag": "coconut", "patterns": ["Coconut", "Benefits of coconut", "About coconut"], "responses": ["Coconuts provide healthy fats. Calories: ~354 kcal/100g."] },
+    { "tag": "lemon", "patterns": ["Lemon", "Benefits of lemon", "About lemon"], "responses": ["Lemons aid weight loss. Calories: ~29 kcal/100g."] },
+    { "tag": "cherry", "patterns": ["Cherry", "Benefits of cherry", "About cherry"], "responses": ["Cherries can improve sleep. Calories: ~50 kcal/100g."] },
+    { "tag": "fig", "patterns": ["Fig", "Benefits of fig", "About fig"], "responses": ["Figs manage blood sugar. Calories: ~74 kcal/100g."] },
+    { "tag": "dates", "patterns": ["Dates", "Benefits of dates", "About dates"], "responses": ["Dates are high in fiber. Calories: ~282 kcal/100g."] },
+    { "tag": "lychee", "patterns": ["Lychee", "Benefits of lychee", "About lychee"], "responses": ["Lychees boost immunity. Calories: ~66 kcal/100g."] },
+    { "tag": "avocado", "patterns": ["Avocado", "Benefits of avocado", "About avocado"], "responses": ["Avocados have healthy fats. Calories: ~160 kcal/100g."] },
+
+    { "tag": "potato", "patterns": ["Potato", "Benefits of potato", "About potato"], "responses": ["Potatoes contain resistant starch. Calories: ~77 kcal/100g."] },
+    { "tag": "tomato", "patterns": ["Tomato", "Benefits of tomato", "About tomato"], "responses": ["Tomatoes are a source of lycopene. Calories: ~18 kcal/100g."] },
+    { "tag": "onion", "patterns": ["Onion", "Benefits of onion", "About onion"], "responses": ["Onions fight inflammation. Calories: ~40 kcal/100g."] },
+    { "tag": "garlic", "patterns": ["Garlic", "Benefits of garlic", "About garlic"], "responses": ["Garlic combats sickness. Calories: ~149 kcal/100g."] },
+    { "tag": "carrot", "patterns": ["Carrot", "Benefits of carrot", "About carrot"], "responses": ["Carrots promote eye health. Calories: ~41 kcal/100g."] },
+    { "tag": "cabbage", "patterns": ["Cabbage", "Benefits of cabbage", "About cabbage"], "responses": ["Cabbage is packed with Vitamin K. Calories: ~25 kcal/100g."] },
+    { "tag": "cauliflower", "patterns": ["Cauliflower", "Benefits of cauliflower", "About cauliflower"], "responses": ["Cauliflower is high in fiber. Calories: ~25 kcal/100g."] },
+    { "tag": "spinach", "patterns": ["Spinach", "Benefits of spinach", "About spinach"], "responses": ["Spinach reduces oxidative stress. Calories: ~23 kcal/100g."] },
+    { "tag": "broccoli", "patterns": ["Broccoli", "Benefits of broccoli", "About broccoli"], "responses": ["Broccoli is a vitamin powerhouse. Calories: ~34 kcal/100g."] },
+    { "tag": "peas", "patterns": ["Peas", "Benefits of peas", "About peas"], "responses": ["Peas are high in protein. Calories: ~81 kcal/100g."] },
+    { "tag": "corn", "patterns": ["Corn", "Benefits of corn", "About corn"], "responses": ["Corn provides magnesium. Calories: ~86 kcal/100g."] },
+    { "tag": "ginger", "patterns": ["Ginger", "Benefits of ginger", "About ginger"], "responses": ["Ginger aids digestion. Calories: ~80 kcal/100g."] },
+    { "tag": "eggplant", "patterns": ["Eggplant", "Brinjal", "Benefits of eggplant"], "responses": ["Eggplants are high in antioxidants. Calories: ~25 kcal/100g."] },
+    { "tag": "cucumber", "patterns": ["Cucumber", "Benefits of cucumber", "About cucumber"], "responses": ["Cucumbers are hydrating. Calories: ~15 kcal/100g."] },
+    { "tag": "capsicum", "patterns": ["Capsicum", "Bell Pepper", "Benefits of capsicum"], "responses": ["Capsicums are rich in Vitamin C. Calories: ~20 kcal/100g."] },
+    { "tag": "green_beans", "patterns": ["Green Beans", "Benefits of green beans"], "responses": ["Green beans contain folate. Calories: ~31 kcal/100g."] },
+    { "tag": "radish", "patterns": ["Radish", "Benefits of radish", "About radish"], "responses": ["Radishes detoxify the body. Calories: ~16 kcal/100g."] },
+    { "tag": "lettuce", "patterns": ["Lettuce", "Benefits of lettuce", "About lettuce"], "responses": ["Lettuce is rich in Vitamin A. Calories: ~15 kcal/100g."] },
+    { "tag": "beetroot", "patterns": ["Beetroot", "Benefits of beetroot", "About beetroot"], "responses": ["Beetroots lower blood pressure. Calories: ~43 kcal/100g."] },
+    { "tag": "pumpkin", "patterns": ["Pumpkin", "Benefits of pumpkin", "About pumpkin"], "responses": ["Pumpkin is rich in Vitamin A. Calories: ~26 kcal/100g."] },
+    { "tag": "bitter_gourd", "patterns": ["Bitter Gourd", "Karela", "Benefits of bitter gourd"], "responses": ["Bitter gourd lowers blood sugar. Calories: ~17 kcal/100g."] },
+    { "tag": "bottle_gourd", "patterns": ["Bottle Gourd", "Lauki", "Benefits of bottle gourd"], "responses": ["Bottle gourd helps weight loss. Calories: ~14 kcal/100g."] },
+    { "tag": "okra", "patterns": ["Okra", "Lady Finger", "Benefits of okra"], "responses": ["Okra is rich in magnesium. Calories: ~33 kcal/100g."] },
+    { "tag": "turnip", "patterns": ["Turnip", "Benefits of turnip", "About turnip"], "responses": ["Turnips are loaded with fiber. Calories: ~28 kcal/100g."] },
+    { "tag": "sweet_potato", "patterns": ["Sweet Potato", "Benefits of sweet potato"], "responses": ["Sweet potatoes promote gut health. Calories: ~86 kcal/100g."] }
+  ]
+}
