@@ -4,26 +4,6 @@
   "framework": "vite",
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api/index.py"
-    },
-    {
-      "source": "/scan",
-      "destination": "/api/index.py"
-    },
-    {
-      "source": "/chat",
-      "destination": "/api/index.py"
-    },
-    {
-      "source": "/foods",
-      "destination": "/api/index.py"
-    },
-    {
-      "source": "/health",
-      "destination": "/api/index.py"
-    },
-    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
