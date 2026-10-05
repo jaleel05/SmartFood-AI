@@ -6,7 +6,11 @@ const GEMINI_API_KEY =
   (import.meta as any).env?.GEMINI_API_KEY ||
   "";
 
-const API_URL = "http://localhost:5000";
+const API_URL =
+  (import.meta as any).env?.VITE_API_URL ||
+  (typeof window !== 'undefined' && window.location.hostname === 'localhost'
+    ? 'http://localhost:5000'
+    : '');
 
 // --- DATABASE FOR OFFLINE FALLBACK ---
 const FOOD_KNOWLEDGE_BASE = [

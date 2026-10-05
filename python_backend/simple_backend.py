@@ -8,10 +8,21 @@ from PIL import Image, ImageEnhance
 import numpy as np
 import json
 import re
-import torch
-import torch.nn as nn
-from torchvision import models, transforms
-import cv2
+try:
+    import torch
+    import torch.nn as nn
+    from torchvision import models, transforms
+except ImportError:
+    torch = None
+    nn = None
+    models = None
+    transforms = None
+
+try:
+    import cv2
+except ImportError:
+    cv2 = None
+
 import google.generativeai as genai
 
 app = Flask(__name__)
@@ -54,6 +65,10 @@ def load_local_model():
     """Load the custom trained model"""
     global local_trained_model, local_class_info, local_transform
     
+    if torch is None:
+        print("PyTorch not installed in this environment. Gemini AI will handle detection.")
+        return False
+
     model_path = 'food_model_best.pth'
     if not os.path.exists(model_path):
         model_path = os.path.join(os.path.dirname(__file__), 'food_model_best.pth')
@@ -623,7 +638,10 @@ def analyze_color_features(image):
     img_np = np.array(image)
     
     # Convert to HSV color space
-    hsv = cv2.cvtColor(img_np, cv2.COLOR_RGB2HSV)
+    if cv2 is not None:
+        hsv = cv2.cvtColor(img_np, cv2.COLOR_RGB2HSV)
+    else:
+        hsv = np.array(image.convert('HSV'))
     
     # Get image dimensions
     height, width = img_np.shape[:2]
